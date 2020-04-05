@@ -1,5 +1,5 @@
-#Indicium (7pts, 25pts)
-##Problem
+# Indicium (7pts, 25pts)
+## Problem
 Indicium means "trace" in Latin. In this problem we work with Latin squares and matrix traces.
 
 A Latin square is an N-by-N square matrix in which each cell contains one of N different values, such that no value is repeated within a row or a column. In this problem, we will deal only with "natural Latin squares" in which the N values are the integers between 1 and N.
@@ -12,34 +12,34 @@ Given values N and K, produce any N-by-N "natural Latin square" with trace K, or
 3 2 1   1 2 3
 1 3 2   2 3 1
 
-##Input
+## Input
 The first line of the input gives the number of test cases, T. T test cases follow. Each consists of one line containing two integers N and K: the desired size of the matrix and the desired trace.
 
-##Output
+## Output
 For each test case, output one line containing Case #x: y, where x is the test case number (starting from 1) and y is IMPOSSIBLE if there is no answer for the given parameters or POSSIBLE otherwise. In the latter case, output N more lines of N integers each, representing a valid "natural Latin square" with a trace of K, as described above.
 
-##Limits
+## Limits
 Time limit: 20 seconds per test set.
 Memory limit: 1GB.
 N ≤ K ≤ N2.
 
-##Test set 1 (Visible Verdict)
+## Test set 1 (Visible Verdict)
 T = 44.
 2 ≤ N ≤ 5.
 
-##Test set 2 (Hidden Verdict)
+## Test set 2 (Hidden Verdict)
 1 ≤ T ≤ 100.
 2 ≤ N ≤ 50.
 
-##Sample
+## Sample
 
-###Input
+### Input
  
 2
 3 6
 2 3
 	
-###Output
+### Output
   
 Case #1: POSSIBLE
 2 1 3

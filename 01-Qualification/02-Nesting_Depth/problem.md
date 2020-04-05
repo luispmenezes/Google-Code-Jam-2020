@@ -1,6 +1,6 @@
-#Nesting Depth (5pts, 11pts)
+# Nesting Depth (5pts, 11pts)
 
-##Problem
+## Problem
 tl;dr: Given a string of digits S, insert a minimum number of opening and closing parentheses into it such that the resulting string is balanced and each digit d is inside exactly d pairs of matching parentheses.
 
 Let the nesting of two parentheses within a string be the substring that occurs strictly between them. An opening parenthesis and a closing parenthesis that is further to its right are said to match if their nesting is empty, or if every parenthesis in their nesting matches with another parenthesis in their nesting. The nesting depth of a position p is the number of pairs of matching parentheses m such that p is included in the nesting of m.
@@ -13,27 +13,27 @@ removing any and all parentheses from S' results in S,
 each digit in S' is equal to its nesting depth, and
 S' is of minimum length.
 
-##Input
+## Input
 The first line of the input gives the number of test cases, T. T lines follow. Each line represents a test case and contains only the string S.
 
-##Output
+## Output
 For each test case, output one line containing Case #x: y, where x is the test case number (starting from 1) and y is the string S' defined above.
 
-##Limits
+## Limits
 Time limit: 20 seconds per test set.
 Memory limit: 1GB.
 1 ≤ T ≤ 100.
 1 ≤ length of S ≤ 100.
 
-##Test set 1 (Visible Verdict)
+## Test set 1 (Visible Verdict)
 Each character in S is either 0 or 1.
 
-##Test set 2 (Visible Verdict)
+## Test set 2 (Visible Verdict)
 Each character in S is a decimal digit between 0 and 9, inclusive.
 
-##Sample
+## Sample
 
-###Input
+### Input
  	 
 4
 0000
@@ -41,7 +41,7 @@ Each character in S is a decimal digit between 0 and 9, inclusive.
 111000
 1
 
-###Output
+### Output
   
 Case #1: 0000
 Case #2: (1)0(1)
